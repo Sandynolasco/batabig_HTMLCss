@@ -1,0 +1,27 @@
+.main__tables--container {
+  padding-top: 30px;
+  width: 250px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  margin: 0 auto;
+  column-gap: 18px;
+  row-gap: 18px;
+  font-size: 1.8rem;
+}
+
+.main__tables--container__titulo--tabla {
+  color: var(--bitcoin-orange);
+  grid-column: 1/4;
+}
+
+.main__tables--container__titulo--moneda {
+  grid-column: 1/2;
+}
+
+.main__tables--container__actualizacion {
+  grid-column: 1/4;
+  color: var(--black);
+  background-color: var(--soft-orange);
+  padding: 2px;
+}
