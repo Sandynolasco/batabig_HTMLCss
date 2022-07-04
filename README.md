@@ -1,2 +1,3 @@
 # batabig_HTMLCss
-Proyecto de responsive
+
+Cryptocurrency landing page project
